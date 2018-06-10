@@ -1,7 +1,7 @@
-<h1>JSM Pretty JSON-LD</h1>
+<h1>JSM&#039;s Pretty JSON-LD for Yoast SEO and Others</h1>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM Pretty JSON-LD</td></tr>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM&#039;s Pretty JSON-LD</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Re-format the compressed JSON-LD output from Yoast SEO and other plugins to create human readable (aka &quot;pretty&quot;) JSON-LD code.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>

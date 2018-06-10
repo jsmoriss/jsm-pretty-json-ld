@@ -1,5 +1,5 @@
-=== JSM Pretty JSON-LD ===
-Plugin Name: JSM Pretty JSON-LD
+=== JSM's Pretty JSON-LD for Yoast SEO and Others ===
+Plugin Name: JSM's Pretty JSON-LD
 Plugin Slug: jsm-pretty-json-ld
 Text Domain: jsm-pretty-json-ld
 Domain Path: /languages
