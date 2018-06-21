@@ -70,7 +70,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * {bugfix} = Backwards-compatible bug fixes or small improvements.
 * {stage}.{level} = Pre-production release: dev < a (alpha) < b (beta) < rc (release candidate).
 
-<h3>Free / Standard Version Repositories</h3>
+<h3>Repositories</h3>
 
 * [GitHub](https://jsmoriss.github.io/jsm-pretty-json-ld/)
 * [WordPress.org](https://plugins.trac.wordpress.org/browser/jsm-pretty-json-ld/)
