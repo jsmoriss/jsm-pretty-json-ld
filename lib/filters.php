@@ -21,6 +21,10 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 				return;	// Nothing to do.
 			}
 
+			/**
+			 * Note that the FIRST PHP output buffer created will be the LAST to execute, so hook the
+			 * WordPress 'template_redirect' action before any other plugin and start the PHP output buffer.
+			 */
 			add_action( 'template_redirect', array( __CLASS__, 'output_buffer_start' ), self::get_min_int() );
 		}
 
@@ -52,8 +56,18 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 				return $buffer;
 			}
 
-			$buffer = preg_replace_callback( '/(<script type=["\']application\/ld\+json["\']>)({.*})(<\/script>)/Ui',
-				array( __CLASS__, 'format_json_ld' ), $buffer );
+			/**
+			 * PCRE modifier notes:
+			 *
+			 * U = This modifier inverts the "greediness" of the quantifiers so that they are not greedy by default, but become greedy if followed by ?.
+			 * i = If this modifier is set, letters in the pattern match both upper and lower case letters.
+			 * s = If this modifier is set, a dot metacharacter in the pattern matches all characters, including newlines.
+			 *
+			 * Do not use the 's' modifier, so that only single-line ld+json scripts are detected and formatted.
+			 */
+			$buffer = preg_replace_callback( array(
+				'/(<script type=["\']application\/ld\+json["\']>)({.*})(<\/script>)/Ui',
+			), array( __CLASS__, 'format_json_ld' ), $buffer );
 
 			return $buffer;
 		}
