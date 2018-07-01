@@ -1,5 +1,5 @@
-=== JSM's Pretty JSON-LD for Yoast SEO and Others ===
-Plugin Name: JSM's Pretty JSON-LD
+=== JSM's Pretty LD+JSON / JSON-LD for Yoast SEO and Others ===
+Plugin Name: JSM's Pretty LD+JSON / JSON-LD
 Plugin Slug: jsm-pretty-json-ld
 Text Domain: jsm-pretty-json-ld
 Domain Path: /languages
@@ -13,11 +13,11 @@ Requires At Least: 3.8
 Tested Up To: 4.9.6
 Stable Tag: 1.0.1
 
-Re-format the compressed JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") JSON-LD code.
+Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") code.
 
 == Description ==
 
-Re-format the compressed JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") JSON-LD code.
+Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") code.
 
 There are no plugin settings &mdash; simply install and activate the plugin.
 
