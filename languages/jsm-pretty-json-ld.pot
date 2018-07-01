@@ -1,8 +1,8 @@
-# Copyright (C) 2018 JSM's Pretty JSON-LD
-# This file is distributed under the same license as the JSM's Pretty JSON-LD package.
+# Copyright (C) 2018 JSM's Pretty LD+JSON / JSON-LD
+# This file is distributed under the same license as the JSM's Pretty LD+JSON / JSON-LD package.
 msgid ""
 msgstr ""
-"Project-Id-Version: JSM's Pretty JSON-LD 1.0.1\n"
+"Project-Id-Version: JSM's Pretty LD+JSON / JSON-LD 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/jsm-pretty-json-"
 "ld\n"
 "POT-Creation-Date: 2018-MO-DA HO:MI+ZONE\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #. Plugin Name of the plugin/theme
-msgid "JSM's Pretty JSON-LD"
+msgid "JSM's Pretty LD+JSON / JSON-LD"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -23,8 +23,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Re-format the compressed JSON-LD output from Yoast SEO and other plugins to "
-"create human readable (aka \"pretty\") JSON-LD code."
+"Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other "
+"plugins to create human readable (aka \"pretty\") code."
 msgstr ""
 
 #. Author of the plugin/theme

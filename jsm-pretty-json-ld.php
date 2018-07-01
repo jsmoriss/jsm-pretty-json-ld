@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: JSM's Pretty JSON-LD
+ * Plugin Name: JSM's Pretty LD+JSON / JSON-LD
  * Plugin Slug: jsm-pretty-json-ld
  * Text Domain: jsm-pretty-json-ld
  * Domain Path: /languages
@@ -10,7 +10,7 @@
  * Author URI: https://surniaulula.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Re-format the compressed JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") JSON-LD code.
+ * Description: Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") code.
  * Requires PHP: 5.4
  * Requires At Least: 3.8
  * Tested Up To: 4.9.6
