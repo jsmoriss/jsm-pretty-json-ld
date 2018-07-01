@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.6
-Stable Tag: 1.0.0
+Stable Tag: 1.0.1
 
 Re-format the compressed JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") JSON-LD code.
 
@@ -77,20 +77,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.0 (2018/06/10)**
+**Version 1.0.1 (2018/07/01)**
 
 * *New Features*
-	* Initial release.
+	* None
 * *Improvements*
 	* None
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* None
+	* Minor update for code style and additional comments.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 1.0.1 =
 
-(2018/06/10) Initial release.
+(2018/07/01) Minor update for code style and additional comments.
 
