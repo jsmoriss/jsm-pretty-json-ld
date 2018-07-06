@@ -19,7 +19,7 @@ Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugi
 
 Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") code.
 
-There are no plugin settings &mdash; simply install and activate the plugin.
+There are no plugin settings &mdash; simply *install* and *activate* the plugin.
 
 == Installation ==
 
