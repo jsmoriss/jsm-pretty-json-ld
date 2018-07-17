@@ -70,11 +70,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 **Version 1.0.1 (2018/07/01)**
 
 * *New Features*
-	* None
+	* None.
 * *Improvements*
-	* None
+	* None.
 * *Bugfixes*
-	* None
+	* None.
 * *Developer Notes*
 	* Minor update for code style and additional comments.
 
