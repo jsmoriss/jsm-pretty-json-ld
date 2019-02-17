@@ -10,7 +10,7 @@ Tags: ld+json, json-ld, pretty, format, yoast, seo
 Contributors: jsmoriss
 Requires PHP: 5.5
 Requires At Least: 3.8
-Tested Up To: 5.0
+Tested Up To: 5.1
 Stable Tag: 1.0.1
 
 Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") code.
