@@ -38,11 +38,13 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 		}
 
 		public static function get_min_int() {
-			return defined( 'PHP_INT_MIN' ) ? PHP_INT_MIN : -2147483648;    // Since PHP 7.0.0.
+
+			return defined( 'PHP_INT_MIN' ) ? PHP_INT_MIN : -2147483648;	// Since PHP v7.0.0.
 		}
 		
 		public static function get_max_int() {
-			return defined( 'PHP_INT_MAX' ) ? PHP_INT_MAX : 2147483647;     // Since PHP 5.0.2.
+
+			return PHP_INT_MAX;	// Since PHP v5.0.2.
 		}
 
 		public static function output_buffer_start() {
@@ -65,9 +67,13 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 			 *
 			 * Do not use the 's' modifier, so that only single-line ld+json scripts are detected and formatted.
 			 */
-			$buffer = preg_replace_callback( array(
-				'/(<script type=["\']application\/ld\+json["\']>)({.*})(<\/script>)/Ui',
-			), array( __CLASS__, 'format_json_ld' ), $buffer );
+			$buffer = preg_replace_callback(
+				array(
+					'/(<script type=["\']application\/ld\+json["\']>)({.*})(<\/script>)/Ui',
+				),
+				array( __CLASS__, 'format_json_ld' ),
+				$buffer
+			);
 
 			return $buffer;
 		}
