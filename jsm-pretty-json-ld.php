@@ -13,7 +13,7 @@
  * Description: Re-format the compressed LD+JSON / JSON-LD output from Yoast SEO and other plugins to create human readable (aka "pretty") code.
  * Requires PHP: 5.6
  * Requires At Least: 3.8
- * Tested Up To: 5.1
+ * Tested Up To: 5.1.1
  * Version: 1.0.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
