@@ -1,8 +1,8 @@
 <h1>JSM&#039;s Pretty Schema JSON-LD for Yoast SEO, WooCommerce, etc.</h1>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM&#039;s Pretty LD+JSON / JSON-LD</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Re-format compressed Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka &quot;pretty&quot;) code.</td></tr>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM&#039;s Pretty Schema JSON-LD</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka &quot;pretty&quot;) code.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 5.1.1</td></tr>
@@ -13,7 +13,7 @@
 
 <h2>Description</h2>
 
-<p>Re-format compressed Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.</p>
+<p>Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.</p>
 
 <p>There are no plugin settings &mdash; simply <em>install</em> and <em>activate</em> the plugin.</p>
 
