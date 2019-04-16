@@ -69,7 +69,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 			 */
 			$buffer = preg_replace_callback(
 				array(
-					'/(<script type=["\']application\/ld\+json["\']>)({.*})(<\/script>)/Ui',
+					'/(<script [^>]*type=["\']application\/ld\+json["\'][^>]*>)({.*})(<\/script>)/Ui',
 				),
 				array( __CLASS__, 'format_json_ld' ),
 				$buffer
