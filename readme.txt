@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 3.8
 Tested Up To: 5.1.1
-Stable Tag: 1.0.1
+Stable Tag: 1.0.2
 
 Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
 
@@ -67,20 +67,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.1 (2018/07/01)**
+**Version 1.0.2 (2019/04/16)**
 
 * *New Features*
 	* None.
 * *Improvements*
-	* None.
+	* Update for plugin readme and description.
 * *Bugfixes*
 	* None.
 * *Developer Notes*
-	* Minor update for code style and additional comments.
+	* None.
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.2 =
 
-(2018/07/01) Minor update for code style and additional comments.
+(2019/04/16) Update for plugin readme and description.
 

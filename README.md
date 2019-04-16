@@ -3,7 +3,7 @@
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM&#039;s Pretty Schema JSON-LD</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka &quot;pretty&quot;) code.</td></tr>
-<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.1</td></tr>
+<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.2</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 5.1.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
