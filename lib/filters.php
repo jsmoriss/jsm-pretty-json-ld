@@ -65,11 +65,11 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 			 * i = If this modifier is set, letters in the pattern match both upper and lower case letters.
 			 * s = If this modifier is set, a dot metacharacter in the pattern matches all characters, including newlines.
 			 *
-			 * Do not use the 's' modifier, so that only single-line ld+json scripts are detected and formatted.
+			 * DO NOT USE THE 's' MODIFIER, SO THAT ONLY SINGLE-LINE LD+JSON SCRIPTS ARE DETECTED AND FORMATTED.
 			 */
 			$buffer = preg_replace_callback(
 				array(
-					'/(<script [^>]*type=["\']application\/ld\+json["\'][^>]*>)({.*})(<\/script>)/Ui',
+					'/(<script\b[^>]*type=["\']application\/ld\+json["\'][^>]*>)({.*})(<\/script>)/Ui',
 				),
 				array( __CLASS__, 'format_json_ld' ),
 				$buffer
