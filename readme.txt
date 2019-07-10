@@ -69,13 +69,13 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 **Version 1.0.2 (2019/04/16)**
 
-* *New Features*
+* **New Features**
 	* None.
-* *Improvements*
+* **Improvements**
 	* Update for plugin readme and description.
-* *Bugfixes*
+* **Bugfixes**
 	* None.
-* *Developer Notes*
+* **Developer Notes**
 	* None.
 
 == Upgrade Notice ==
