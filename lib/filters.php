@@ -21,11 +21,13 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 				return;	// Nothing to do.
 			}
 
+			$min_int = self::get_min_int();
+
 			/**
 			 * Note that the FIRST PHP output buffer created will be the LAST to execute, so hook the
 			 * WordPress 'template_redirect' action before any other plugin and start the PHP output buffer.
 			 */
-			add_action( 'template_redirect', array( __CLASS__, 'output_buffer_start' ), self::get_min_int() );
+			add_action( 'template_redirect', array( __CLASS__, 'output_buffer_start' ), $min_int );
 		}
 
 		public static function &get_instance() {
@@ -35,16 +37,6 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 			}
 
 			return self::$instance;
-		}
-
-		public static function get_min_int() {
-
-			return defined( 'PHP_INT_MIN' ) ? PHP_INT_MIN : -2147483648;	// Since PHP v7.0.0.
-		}
-		
-		public static function get_max_int() {
-
-			return PHP_INT_MAX;	// Since PHP v5.0.2.
 		}
 
 		public static function output_buffer_start() {
@@ -89,6 +81,11 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 			}
 
 			return $matches[1] . $matches[2] . $matches[3];
+		}
+
+		private static function get_min_int() {
+
+			return defined( 'PHP_INT_MIN' ) ? PHP_INT_MIN : -2147483648;	// Since PHP v7.0.0.
 		}
 	}
 
