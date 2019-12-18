@@ -10,7 +10,7 @@ Tags: ld+json, json-ld, pretty, format, yoast, seo
 Contributors: jsmoriss
 Requires PHP: 5.5
 Requires At Least: 3.9
-Tested Up To: 5.3.1
+Tested Up To: 5.3.2
 WC Tested Up To: 3.8.1
 Stable Tag: 1.0.2
 
