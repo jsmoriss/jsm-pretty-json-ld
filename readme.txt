@@ -8,7 +8,7 @@ License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://jsmoriss.github.io/jsm-pretty-json-ld/assets/
 Tags: ld+json, json-ld, pretty, format, yoast, seo
 Contributors: jsmoriss
-Requires PHP: 5.5
+Requires PHP: 5.6
 Requires At Least: 4.0
 Tested Up To: 5.4
 WC Tested Up To: 3.9.2
