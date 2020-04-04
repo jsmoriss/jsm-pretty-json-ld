@@ -5,7 +5,7 @@
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka &quot;pretty&quot;) code.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.2</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>5.6 or newer</td></tr>
-<tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>4.0 or newer</td></tr>
+<tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>4.2 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To WordPress</th><td>5.4</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To WooCommerce</th><td>4.0.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
