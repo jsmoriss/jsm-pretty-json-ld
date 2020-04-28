@@ -39,7 +39,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 
 		public function __construct() {
 
-			add_action( 'plugins_loaded', array( __CLASS__, 'load_textdomain' ) );
+			add_action( 'plugins_loaded', array( __CLASS__, 'init_textdomain' ) );
 
 			$plugin_dir = trailingslashit( realpath( dirname( __FILE__ ) ) );
 
@@ -55,7 +55,16 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 			return self::$instance;
 		}
 
-		public static function load_textdomain() {
+		public static function init_textdomain() {
+
+			static $loaded = null;
+
+			if ( null !== $loaded ) {
+				return;
+			}
+
+			$loaded = true;
+
 			load_plugin_textdomain( 'jsm-pretty-json-ld', false, 'jsm-pretty-json-ld/languages/' );
 		}
 	}
