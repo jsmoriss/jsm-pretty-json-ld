@@ -13,7 +13,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 
 	class JSM_Pretty_JSON_LD_Filters {
 
-		private static $instance;
+		private static $instance = null;
 
 		public function __construct() {
 
@@ -32,7 +32,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 
 		public static function &get_instance() {
 
-			if ( ! isset( self::$instance ) ) {
+			if ( null === self::$instance ) {
 				self::$instance = new self;
 			}
 
