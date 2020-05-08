@@ -12,7 +12,7 @@ Requires PHP: 5.6
 Requires At Least: 4.2
 Tested Up To: 5.4.1
 WC Tested Up To: 4.1.0
-Stable Tag: 1.0.2
+Stable Tag: 1.1.0
 
 Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
 
@@ -68,20 +68,23 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.2 (2019/04/16)**
+**Version 1.1.0 (2020/05/08)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* Update for plugin readme and description.
+	* Maintenance release - minor code formatting changes.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
 	* None.
+* **Requires At Least**
+	* PHP v5.6.
+	* WordPress v4.2.
 
 == Upgrade Notice ==
 
-= 1.0.2 =
+= 1.1.0 =
 
-(2019/04/16) Update for plugin readme and description.
+(2020/05/08) Maintenance release - minor code formatting changes.
 
