@@ -15,7 +15,7 @@
  * Requires At Least: 4.2
  * Tested Up To: 5.4.1
  * WC Tested Up To: 4.1.0
- * Version: 1.0.2
+ * Version: 1.1.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -49,6 +49,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 		public static function &get_instance() {
 
 			if ( null === self::$instance ) {
+
 				self::$instance = new self;
 			}
 

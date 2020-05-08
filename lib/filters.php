@@ -33,6 +33,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 		public static function &get_instance() {
 
 			if ( null === self::$instance ) {
+
 				self::$instance = new self;
 			}
 
