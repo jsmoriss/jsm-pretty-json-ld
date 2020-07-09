@@ -18,7 +18,7 @@ msgid "JSM's Pretty Schema JSON-LD"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://wpsso.com/extend/plugins/jsm-pretty-json-ld/"
+msgid "https://surniaulula.com/extend/plugins/jsm-pretty-json-ld/"
 msgstr ""
 
 #. Description of the plugin/theme

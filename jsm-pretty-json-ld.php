@@ -4,7 +4,7 @@
  * Plugin Slug: jsm-pretty-json-ld
  * Text Domain: jsm-pretty-json-ld
  * Domain Path: /languages
- * Plugin URI: https://wpsso.com/extend/plugins/jsm-pretty-json-ld/
+ * Plugin URI: https://surniaulula.com/extend/plugins/jsm-pretty-json-ld/
  * Assets URI: https://jsmoriss.github.io/jsm-pretty-json-ld/assets/
  * Author: JS Morisset
  * Author URI: https://surniaulula.com/
@@ -24,7 +24,7 @@
  *      {bugfix}        Backwards-compatible bug fixes or small improvements.
  *      {stage}.{level} Pre-production release: dev < a (alpha) < b (beta) < rc (release candidate).
  * 
- * Copyright 2016-2020 Jean-Sebastien Morisset (https://wpsso.com/)
+ * Copyright 2016-2020 Jean-Sebastien Morisset (https://surniaulula.com/)
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
