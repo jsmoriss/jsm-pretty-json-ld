@@ -15,7 +15,7 @@
  * Requires At Least: 4.4
  * Tested Up To: 5.5.1
  * WC Tested Up To: 4.5.2
- * Version: 1.1.0
+ * Version: 1.2.0-dev.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -39,7 +39,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 
 		public function __construct() {
 
-			add_action( 'plugins_loaded', array( __CLASS__, 'init_textdomain' ) );
+			add_action( 'plugins_loaded', array( $this, 'init_textdomain' ) );
 
 			$plugin_dir = trailingslashit( realpath( dirname( __FILE__ ) ) );
 
@@ -56,17 +56,18 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 			return self::$instance;
 		}
 
-		public static function init_textdomain() {
+		public function init_textdomain() {
 
-			static $loaded = null;
+			static $local_cache = null;
 
-			if ( null !== $loaded ) {
-				return;
+			if ( null === $local_cache ) {
+
+				$local_cache = 'jsm-pretty-json-ld';
+
+				load_plugin_textdomain( 'jsm-pretty-json-ld', false, 'jsm-pretty-json-ld/languages/' );
 			}
 
-			$loaded = true;
-
-			load_plugin_textdomain( 'jsm-pretty-json-ld', false, 'jsm-pretty-json-ld/languages/' );
+			return $local_cache;
 		}
 	}
 
