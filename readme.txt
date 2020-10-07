@@ -68,26 +68,14 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.2.0-dev.1 (TBD)**
+**Version 1.2.0 (2020/10/07)**
+
+Maintenance release.
 
 * **New Features**
 	* None.
 * **Improvements**
 	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.4.
-
-**Version 1.1.0 (2020/05/08)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Maintenance release - minor code formatting changes.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
@@ -98,7 +86,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.0 =
+= 1.2.0 =
 
-(2020/05/08) Maintenance release - minor code formatting changes.
+(2020/10/07) Maintenance release.
 
