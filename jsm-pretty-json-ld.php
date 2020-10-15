@@ -59,16 +59,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 
 		public function init_textdomain() {
 
-			static $local_cache = null;
-
-			if ( null === $local_cache ) {
-
-				$local_cache = 'jsm-pretty-json-ld';
-
-				load_plugin_textdomain( 'jsm-pretty-json-ld', false, 'jsm-pretty-json-ld/languages/' );
-			}
-
-			return $local_cache;
+			load_plugin_textdomain( 'jsm-pretty-json-ld', false, 'jsm-pretty-json-ld/languages/' );
 		}
 	}
 
