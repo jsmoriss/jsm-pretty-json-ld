@@ -13,7 +13,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 
 	class JSM_Pretty_JSON_LD_Filters {
 
-		private static $instance = null;
+		private static $instance = null;	// JSM_Pretty_JSON_LD_Filters class object.
 
 		public function __construct() {
 

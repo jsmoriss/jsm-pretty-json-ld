@@ -36,7 +36,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 
 	class JSM_Pretty_JSON_LD {
 
-		private static $instance = null;
+		private static $instance = null;	// JSM_Pretty_JSON_LD class object.
 
 		public function __construct() {
 
