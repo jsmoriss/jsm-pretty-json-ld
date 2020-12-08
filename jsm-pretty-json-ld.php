@@ -12,7 +12,7 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
  * Requires PHP: 5.6
- * Requires At Least: 4.4
+ * Requires At Least: 4.5
  * Tested Up To: 5.6
  * WC Tested Up To: 4.7.1
  * Version: 1.2.0
