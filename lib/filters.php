@@ -18,6 +18,7 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 		public function __construct() {
 
 			if ( defined( 'DOING_AJAX' ) && DOING_AJAX ) {
+
 				return;	// Nothing to do.
 			}
 
