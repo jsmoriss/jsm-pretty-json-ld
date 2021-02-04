@@ -13,7 +13,7 @@
  * Description: Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
  * Requires PHP: 7.0
  * Requires At Least: 4.5
- * Tested Up To: 5.6
+ * Tested Up To: 5.6.1
  * WC Tested Up To: 4.9.2
  * Version: 1.2.0
  * 
