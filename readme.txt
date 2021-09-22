@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.0
 Requires At Least: 5.0
 Tested Up To: 5.8.1
-WC Tested Up To: 5.6.0
+WC Tested Up To: 5.7.0
 Stable Tag: 1.2.0
 
 Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
@@ -24,7 +24,7 @@ There are no plugin settings - simply *install* and *activate* the plugin.
 
 = Need a Boost to your Social and Search Ranking? =
 
-Check out [the WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) to rank higher and improve click-through-rates by presenting your content at its best on social sites and in search results - no matter how URLs are shared, re-shared, messaged, posted, embedded, or crawled.
+Check out [the WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) to rank higher and improve click through rates by presenting your content at its best on social sites and in search results - no matter how URLs are shared, re-shared, messaged, posted, embedded, or crawled.
 
 == Installation ==
 
