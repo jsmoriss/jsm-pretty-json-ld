@@ -9,11 +9,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
-if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
+if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 
-	class JSM_Pretty_JSON_LD_Filters {
+	class JsmPrettyJsonLdFilters {
 
-		private static $instance = null;	// JSM_Pretty_JSON_LD_Filters class object.
+		private static $instance = null;	// JsmPrettyJsonLdFilters class object.
 
 		public function __construct() {
 
@@ -91,5 +91,5 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD_Filters' ) ) {
 		}
 	}
 
-	JSM_Pretty_JSON_LD_Filters::get_instance();
+	JsmPrettyJsonLdFilters::get_instance();
 }

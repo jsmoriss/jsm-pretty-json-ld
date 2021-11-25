@@ -32,11 +32,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
-if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
+if ( ! class_exists( 'JsmPrettyJsonLd' ) ) {
 
-	class JSM_Pretty_JSON_LD {
+	class JsmPrettyJsonLd {
 
-		private static $instance = null;	// JSM_Pretty_JSON_LD class object.
+		private static $instance = null;	// JsmPrettyJsonLd class object.
 
 		public function __construct() {
 
@@ -63,5 +63,5 @@ if ( ! class_exists( 'JSM_Pretty_JSON_LD' ) ) {
 		}
 	}
 
-	JSM_Pretty_JSON_LD::get_instance();
+	JsmPrettyJsonLd::get_instance();
 }
