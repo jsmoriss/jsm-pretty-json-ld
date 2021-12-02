@@ -20,7 +20,7 @@ Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to cr
 
 Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
 
-There are no plugin settings - simply *install* and *activate* the plugin.
+There are no plugin settings - simply install and activate the plugin.
 
 == Installation ==
 

@@ -17,7 +17,7 @@
 
 <p>Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.</p>
 
-<p>There are no plugin settings - simply <em>install</em> and <em>activate</em> the plugin.</p>
+<p>There are no plugin settings - simply install and activate the plugin.</p>
 
 
 <h2>Installation</h2>
