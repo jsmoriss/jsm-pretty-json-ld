@@ -10,8 +10,8 @@ Tags: ld+json, json-ld, pretty, format, yoast, seo
 Contributors: jsmoriss
 Requires PHP: 7.2
 Requires At Least: 5.2
-Tested Up To: 5.8.3
-WC Tested Up To: 6.1.0
+Tested Up To: 5.9.0
+WC Tested Up To: 6.1.1
 Stable Tag: 1.2.0
 
 Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
