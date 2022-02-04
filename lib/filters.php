@@ -22,13 +22,11 @@ if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 				return;	// Nothing to do.
 			}
 
-			$min_int = self::get_min_int();
-
 			/**
 			 * Note that the FIRST PHP output buffer created will be the LAST to execute, so hook the
 			 * WordPress 'template_redirect' action before any other plugin and start the PHP output buffer.
 			 */
-			add_action( 'template_redirect', array( __CLASS__, 'output_buffer_start' ), $min_int );
+			add_action( 'template_redirect', array( __CLASS__, 'output_buffer_start' ), PHP_INT_MIN );
 		}
 
 		public static function &get_instance() {
