@@ -47,6 +47,7 @@ if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 		public static function extract_json_ld( $buffer ) {
 
 			if ( empty( $buffer ) || is_feed() ) {
+
 				return $buffer;
 			}
 
@@ -60,9 +61,7 @@ if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 			 * DO NOT USE THE 's' MODIFIER, SO THAT ONLY SINGLE-LINE LD+JSON SCRIPTS ARE DETECTED AND FORMATTED.
 			 */
 			$buffer = preg_replace_callback(
-				array(
-					'/(<script\b[^>]*type=["\']application\/ld\+json["\'][^>]*>)({.*})(<\/script>)/Ui',
-				),
+				array( '/(<script\b[^>]*type=["\']application\/ld\+json["\'][^>]*>)({.*})(<\/script>)/Ui' ),
 				array( __CLASS__, 'format_json_ld' ),
 				$buffer
 			);
@@ -76,16 +75,12 @@ if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 
 			require_once $lib_dir . 'ext/json-format.php';
 
-			if ( ! empty( $matches[2] ) ) {
-				$matches[2] = SuextJsonFormat::get( $matches[2] );
+			if ( ! empty( $matches[ 2 ] ) ) {
+
+				$matches[ 2 ] = SuextJsonFormat::get( $matches[ 2 ] );
 			}
 
-			return $matches[1] . $matches[2] . $matches[3];
-		}
-
-		private static function get_min_int() {
-
-			return defined( 'PHP_INT_MIN' ) ? PHP_INT_MIN : -2147483648;	// Since PHP v7.0.0.
+			return $matches[ 1 ] . $matches[ 2 ] . $matches[ 3 ];
 		}
 	}
 
