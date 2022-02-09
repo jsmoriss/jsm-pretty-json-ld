@@ -1,8 +1,6 @@
 <?php
 /**
- * From http://www.daveperrett.com/articles/2008/03/11/format-json-with-php/.
- *
- * Modified to allow native functionality in PHP version >= 5.4.
+ * See http://www.daveperrett.com/articles/2008/03/11/format-json-with-php/.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
