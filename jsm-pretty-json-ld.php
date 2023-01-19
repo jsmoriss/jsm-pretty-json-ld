@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Plugin Name: JSM's Pretty Schema JSON-LD
  * Plugin Slug: jsm-pretty-json-ld
  * Text Domain: jsm-pretty-json-ld
