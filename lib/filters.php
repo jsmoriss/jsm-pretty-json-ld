@@ -6,6 +6,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
+
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
@@ -22,7 +23,7 @@ if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 				return;	// Nothing to do.
 			}
 
-			/**
+			/*
 			 * Note that the FIRST PHP output buffer created will be the LAST to execute, so hook the
 			 * WordPress 'template_redirect' action before any other plugin and start the PHP output buffer.
 			 */
@@ -51,7 +52,7 @@ if ( ! class_exists( 'JsmPrettyJsonLdFilters' ) ) {
 				return $buffer;
 			}
 
-			/**
+			/*
 			 * PCRE modifier notes:
 			 *
 			 * U = This modifier inverts the "greediness" of the quantifiers so that they are not greedy by default, but become greedy if followed by ?.
