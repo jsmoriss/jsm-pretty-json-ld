@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: JSM's Pretty Schema JSON-LD
+ * Plugin Name: JSM Pretty Schema JSON-LD
  * Plugin Slug: jsm-pretty-json-ld
  * Text Domain: jsm-pretty-json-ld
  * Domain Path: /languages
