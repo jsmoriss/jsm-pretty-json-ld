@@ -9,7 +9,7 @@ Assets URI: https://jsmoriss.github.io/jsm-pretty-json-ld/assets/
 Tags: ld+json, json-ld, pretty, format, yoast, seo
 Contributors: jsmoriss
 Requires PHP: 7.2.34
-Requires At Least: 5.5
+Requires At Least: 5.8
 Tested Up To: 6.4.2
 WC Tested Up To: 8.4.0
 Stable Tag: 1.2.0
