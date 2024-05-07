@@ -6,7 +6,7 @@ Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://jsmoriss.github.io/jsm-pretty-json-ld/assets/
-Tags: ld+json, json-ld, pretty, format, yoast, seo
+Tags: json-ld, pretty, format, yoast, woocommerce
 Contributors: jsmoriss
 Requires PHP: 7.2.34
 Requires At Least: 5.8
