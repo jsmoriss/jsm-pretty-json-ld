@@ -9,7 +9,7 @@ Assets URI: https://jsmoriss.github.io/jsm-pretty-json-ld/assets/
 Tags: json-ld, pretty, format, yoast, woocommerce
 Contributors: jsmoriss
 Requires PHP: 7.4.33
-Requires At Least: 5.9
+Requires At Least: 6.0
 Tested Up To: 6.9
 WC Tested Up To: 10.4.3
 Stable Tag: 1.2.0
@@ -60,7 +60,7 @@ Maintenance release.
 	* None.
 * **Requires At Least**
 	* PHP v7.4.33.
-	* WordPress v5.9.
+	* WordPress v6.0.
 
 == Upgrade Notice ==
 
