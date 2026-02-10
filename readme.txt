@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.4.33
 Requires At Least: 6.0
 Tested Up To: 6.9
-WC Tested Up To: 10.4.3
+WC Tested Up To: 10.5.0
 Stable Tag: 1.2.0
 
 Re-format Schema LD+JSON / JSON-LD from Yoast SEO, WooCommerce, and others to create human readable (aka "pretty") code.
